@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-auth.css">
+    <title>Authorize</title>
+</head>
+<body background="https://www.culture.ru/storage/images/ac91bd3e89d88d3eab1bde8ede88e75d/5d1b0d3c672be462348640e3a3489ebc.jpeg">
+    <form method="POST" action="https://httpbin.org/post" enctype="multipart/form-data">
+    
+        <div class="img">
+    <img src="./auth.png" alt="Форма авторизации" width="280px" height="300px">
+    </div>
+
+    <div class="form">
+    <p>Введите логин</p>
+    <input type="text" name="login" id="login" required>
+    <p>Введите пароль</p>
+    <input type="text" name="password" id="password" required>
+
+    <p><input type="checkbox" name="agreement" id="agreement" required>
+    <label for="agreement">Запомнить меня</label></p>
+
+    <p>
+        <input type="submit" value="Отправить">
+    </p>
+    </div>
+</form>
+</body>
+</html>

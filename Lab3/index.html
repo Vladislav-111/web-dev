@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav>
+                <div class="navigation">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Информация</a></li>
+                        <li><a href="#">Магазины</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li class="profile"><a href="#">Вход</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container flex-wr">
+            <aside class="sidebar">
+                <form>
+                    <section class="sidebar-section">
+                        <header class="sidebar-header">Производители</header>
+    
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacturer" id="manufacturer1">
+                            <label for="manufacturer1">Производитель "Яна"</label>
+                        </div>
+    
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacturer" id="manufacturer2">
+                            <label for="manufacturer2">Производитель "Саша"</label>
+                        </div>
+    
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacturer" id="manufacturer3">
+                            <label for="manufacturer3">Производитель "Игорь"</label>
+                        </div>
+    
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacturer" id="manufacturer4">
+                            <label for="manufacturer4">Производитель "Диана"</label>
+                        </div>
+    
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacturer" id="manufacturer5">
+                            <label for="manufacturer5">Производитель "Влад"</label>
+                        </div>
+                    </section>
+
+                    <section class="sidebar-section">
+                            <header class="sidebar-header">Группы товаров</header>
+
+                            <div class="form-group">
+                                <input type="radio" name="group" id="group1">
+                                <label for="group1">Пирожные</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="radio" name="group" id="group2">
+                                <label for="group2">Торты</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="radio" name="group" id="group3">
+                                <label for="group3">Мороженое</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="radio" name="group" id="group4">
+                                <label for="group4">Конфеты</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="radio" name="group" id="group5">
+                                <label for="group5">Шоколад</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="radio" name="group" id="group6">
+                                <label for="group6">Молочный коктейль</label>
+                            </div>
+                    </section>
+
+                    <div class="form-group">
+                        <input type="submit" value="Применить">
+                    </div>
+    
+                </form>
+            </aside>
+            
+            <div class="page-content">
+                <h1 class="products-category-header">Кулинария</h1>
+    
+                <div class="products-list">
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./big-cake.jpg">
+                        </div>
+
+                        <div class="product-details">
+                            <header class="title">Большой праздничный торт</header>
+
+                            <p class="information">
+                                Большой праздничный торт для всей семьи.
+                                Два яруса. Шоколадный бисквит.
+                                Вишневая, клубничная и мандариновая начинка.
+                                Вес: 1,5 кг.
+                            </p>
+                            <p>Производитель: Влад</p>
+
+                            <div class="controls">
+                                <button class="btn">
+                                    <span class="price">
+                                        1500 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./cake2.jpg">
+                        </div>
+
+                        <div class="product-details">
+                            <header class="title">Ягодный взрыв</header>
+
+                            <p class="information">
+                                Торт бисквитный с прослойкой малины.
+                                Начинка - клубничное конфи с кусочками смородины.
+                                Покрыт шоколадным розовым вилюром.
+                                Вес: 1,2 кг.
+                            </p>
+                            <p>Производитель: Яна</p>
+
+                            <div class="controls">
+                                <button class="btn">
+                                    <span class="price">
+                                        1700 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./ice-cream.jpg">
+                        </div>
+
+                        <div class="product-details">
+                            <header class="title">Мороженое Летнее настроение</header>
+
+                            <p class="information">
+                                Комплект из 6 штук.
+                                Мороженое со вкусом фисташки, вишни и крем брюле.
+                                В вафельном рожке из цветного теста в виде арбузика.
+                            </p>
+                            <p>Производитель: Игорь</p>
+
+                            <div class="controls">
+                                <button class="btn">
+                                    <span class="price">
+                                        350 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./red-barhat.jpg">
+                        </div>
+
+                        <div class="product-details">
+                            <header class="title">Красный бархат</header>
+
+                            <p class="information">
+                                Набор пирожных из 12 штук.
+                                Состав: бисквит с пищевым красителем красного цвета, соединенный с крем чизом.
+                                Верхушка изделия украшена ягодами - малиной и черникой.
+                            </p>
+                            <p>Производитель: Саша</p>
+                            <div class="controls">
+                                <button class="btn">
+                                    <span class="price">
+                                        1200 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./donat.jpg">
+                        </div>
+
+                        <div class="product-details">
+                            <header class="title">Пончик Небесный</header>
+
+                            <p class="information">
+                                Пончик изготовленный из тонкого теста.
+                                С йогуртовой начинкой.
+                                Покрыт темно-синей глазурью и посыпанный цветной посыпкой.
+                                Вес: 60 гр.
+                            </p>
+                            <p>Производитель: Диана</p>
+
+                            <div class="controls">
+                                <button class="btn">
+                                    <span class="price">
+                                        60 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./milk-shake.jpg">
+                        </div>
+
+                        <div class="product-details">
+                            <header class="title">Great chocolate</header>
+
+                            <p class="information">
+                                Молочно-шоколадный коктейль украшенный фигурками из молочного шоколада.
+                                Полит взбитыми сливками. На самом верху аккуратно лежат печеньки, покрытые темным шоколадом.
+                                Вес: 300 мл.
+                            </p>
+                            <p>Производитель: Яна</p>
+
+                            <div class="controls">
+                                <button class="btn">
+                                    <span class="price">
+                                        400 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+    
+            </div>
+        </div>
+
+        
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            &copy; 2021 OOO Кондитерская организация "Кулинария от Владислава"
+        </div>
+    </footer>
+    
+    <button class="scroll-top">
+        &#9650;
+    </button>
+
+</body>
+</html>

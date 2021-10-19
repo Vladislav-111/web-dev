@@ -3,17 +3,18 @@ body {
     background-repeat:round;
 }
 
-.img {
-   position:absolute;
-   margin-left: 43%;
-   margin-top: 300px;
-   margin-right: 60%;
+.form img {
+    position:absolute;
+    z-index: -1;
+    left: 800px;
 }
 
 .form{
-    position: relative;
     text-align: center;
-    top: 350px;
-    left: 18px;
+    margin-top: 360px;
+}
+
+.content{
+    padding: 4px;
 }
 
